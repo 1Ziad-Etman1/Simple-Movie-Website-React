@@ -1,0 +1,9 @@
+.user{
+ background-color: aqua;
+ margin: 10px;
+ padding: 10px;
+}
+.btn{
+    background-color: blueviolet;
+}
+/* {backgroundColor:"violet" ,margin:"10px" ,padding:10} */

@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.animated-background {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #00063d, #970202, #df9100);
+  background-size: 400% 400%;
+  animation: gradientAnimation 6s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.b-t{
+  background-color: rgba(255, 255, 255, 0.35);
+}
